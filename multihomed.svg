@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="99 69 712 429" width="712" height="429">
+  <defs>
+    <font-face font-family="Droid Sans Mono" font-size="15" panose-1="2 11 6 9 3 8 4 2 2 4" units-per-em="1000" underline-position="-75.19531" underline-thickness="49.80469" slope="0" x-height="536.1328" cap-height="713.8672" ascent="1056.1523" descent="-270.9961" font-weight="400">
+      <font-face-src>
+        <font-face-name name="DroidSansMono"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#1352b0">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-9 -4 10 8" markerWidth="10" markerHeight="8" color="#1352b0">
+      <g>
+        <path d="M -8 0 L 0 3 L 0 -3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.10.2 
+    <dc:date>2019-04-13 05:56:12 +0000</dc:date>
+  </metadata>
+  <g id="multi-homed" fill-opacity="1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none">
+    <title>multi-homed</title>
+    <g id="multi-homed: Layer 1">
+      <title>Layer 1</title>
+      <g id="Line_6">
+        <line x1="171.04825" y1="310.02468" x2="413.43645" y2="444.9541" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_7">
+        <line x1="171.04825" y1="268.97458" x2="415.43373" y2="122.61483" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_8">
+        <line x1="495.0488" y1="122.61483" x2="739.4343" y2="268.97458" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_9">
+        <line x1="497.0461" y1="444.9541" x2="739.4343" y2="310.02468" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_10">
+        <rect x="231.74804" y="181.78244" width="118.01758" height="31" fill="white"/>
+        <text transform="translate(236.74804 186.78244)" fill="black">
+          <tspan font-family="Droid Sans Mono" font-size="15" font-weight="400" fill="black" x="0" y="16">10.10.100.10</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <rect x="240.85457" y="366.23176" width="118.01758" height="31" fill="white"/>
+        <text transform="translate(245.85457 371.23176)" fill="black">
+          <tspan font-family="Droid Sans Mono" font-size="15" font-weight="400" fill="black" x="0" y="16">10.10.200.10</tspan>
+        </text>
+      </g>
+      <g id="Graphic_13">
+        <rect x="541.7689" y="170.4347" width="118.01758" height="31" fill="white"/>
+        <text transform="translate(546.7689 175.4347)" fill="black">
+          <tspan font-family="Droid Sans Mono" font-size="15" font-weight="400" fill="black" x="0" y="16">10.10.100.20</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14">
+        <rect x="554.0806" y="364.8567" width="118.01758" height="31" fill="white"/>
+        <text transform="translate(559.0806 369.8567)" fill="black">
+          <tspan font-family="Droid Sans Mono" font-size="15" font-weight="400" fill="black" x="0" y="16">10.10.200.20</tspan>
+        </text>
+      </g>
+      <g id="Graphic_23">
+        <rect x="739.4343" y="254.72546" width="71.04825" height="71.04825" fill="#dadada"/>
+        <rect x="739.4343" y="254.72546" width="71.04825" height="71.04825" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(744.4343 279.7496)" fill="black">
+          <tspan font-family="Droid Sans Mono" font-size="15" font-weight="400" fill="black" x="3.519732" y="16">Client</tspan>
+        </text>
+      </g>
+      <g id="Graphic_24">
+        <ellipse cx="455.24126" cy="98.77454" rx="71.0483664399517" ry="28.7745884081804" fill="white"/>
+        <ellipse cx="455.24126" cy="98.77454" rx="71.0483664399517" ry="28.7745884081804" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(403.40266 88.27454)" fill="black">
+          <tspan font-family="Droid Sans Mono" font-size="15" font-weight="400" fill="black" x="29.33494" y="16">Net 1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_25">
+        <rect x="100" y="254.72546" width="71.04825" height="71.04825" fill="#dadada"/>
+        <rect x="100" y="254.72546" width="71.04825" height="71.04825" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(105 279.7496)" fill="black">
+          <tspan font-family="Droid Sans Mono" font-size="15" font-weight="400" fill="black" x="3.519732" y="16">Server</tspan>
+        </text>
+      </g>
+      <g id="Graphic_26">
+        <ellipse cx="455.24126" cy="468.22546" rx="71.0483664399517" ry="28.7745884081804" fill="white"/>
+        <ellipse cx="455.24126" cy="468.22546" rx="71.0483664399517" ry="28.7745884081804" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(403.40266 457.72546)" fill="black">
+          <tspan font-family="Droid Sans Mono" font-size="15" font-weight="400" fill="black" x="29.33494" y="16">Net 2</tspan>
+        </text>
+      </g>
+      <g id="Line_31">
+        <path d="M 265.91355 277.5358 C 308.00208 267.3406 376.0757 254.72546 455.24126 254.72546 C 534.4068 254.72546 602.48045 267.3406 644.569 277.5358" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="#1352b0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_32">
+        <path d="M 265.91355 302.96337 C 308.00208 313.15855 376.0757 325.7737 455.24126 325.7737 C 534.4068 325.7737 602.48045 313.15855 644.569 302.96337" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="#1352b0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_33">
+        <rect x="426.51186" y="239.22647" width="55.007324" height="31" fill="white"/>
+        <text transform="translate(431.51186 244.22647)" fill="black">
+          <tspan font-family="Droid Sans Mono" font-size="15" font-weight="400" fill="black" x="0" y="16">Path1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_34">
+        <rect x="425.28656" y="310.2709" width="64.00879" height="31" fill="white"/>
+        <text transform="translate(430.28656 315.2709)" fill="black">
+          <tspan font-family="Droid Sans Mono" font-size="15" font-weight="400" fill="black" x="0" y="16">Path 2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_36">
+        <rect x="185.2579" y="276.03993" width="71.04825" height="28.4193" fill="white"/>
+        <rect x="185.2579" y="276.03993" width="71.04825" height="28.4193" stroke="#1352b0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(190.2579 279.7496)" fill="black">
+          <tspan font-family="Droid Sans Mono" font-size="15" font-weight="400" fill="black" x="3.519732" y="16">socket</tspan>
+        </text>
+      </g>
+      <g id="Graphic_37">
+        <rect x="654.1764" y="276.03993" width="71.04825" height="28.4193" fill="white"/>
+        <rect x="654.1764" y="276.03993" width="71.04825" height="28.4193" stroke="#1352b0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(659.1764 279.7496)" fill="black">
+          <tspan font-family="Droid Sans Mono" font-size="15" font-weight="400" fill="black" x="3.519732" y="16">socket</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

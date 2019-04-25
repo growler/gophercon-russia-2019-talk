@@ -1,0 +1,6 @@
+github.com/ishidawataru/sctp v0.0.0-20180918013207-6e2cb1366111 h1:NAAiV9ass6VReWFjuxqrMIq12WKlSULI6Gs3PxQghLA=
+github.com/ishidawataru/sctp v0.0.0-20180918013207-6e2cb1366111/go.mod h1:DM4VvS+hD/kDi1U1QsX2fnZowwBhqD0Dk3bRPKF/Oc8=
+github.com/nperez-messagebird/sctp v0.0.0-20190411155048-d3bda54bb521 h1:Uvbl1PUHvikp+F/zHSKP5rOzH51v0czkDae8oDp+KGY=
+github.com/nperez-messagebird/sctp v0.0.0-20190411155048-d3bda54bb521/go.mod h1:PkA6qX0bYFUJbxLubpMShW1thO32TUm/2P6qc1czAXs=
+golang.org/x/sys v0.0.0-20190411185658-b44545bcd369 h1:aBlRBZoCuZNRDClvfkDoklQqdLzBaA3uViASg2z2p24=
+golang.org/x/sys v0.0.0-20190411185658-b44545bcd369/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=

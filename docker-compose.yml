@@ -1,0 +1,68 @@
+version: '2.4'
+
+services:
+  client:
+    image: sctp-pinger
+    build:
+      context: .
+    hostname: client
+    container_name: sctp-client
+    cap_add:
+      - NET_BIND_SERVICE
+      - NET_ADMIN
+      - NET_RAW
+    networks:
+      lan:
+        ipv4_address: 10.22.22.15
+      sctp-test-1:
+        ipv4_address: 10.10.100.10
+      sctp-test-2:
+        ipv4_address: 10.10.200.10
+    volumes:
+      - /root/go:/root/go
+      - /host/projects:/root/projects
+  server:
+    image: sctp-pinger
+    hostname: server
+    container_name: sctp-server
+    cap_add:
+      - NET_BIND_SERVICE
+      - NET_ADMIN
+      - NET_RAW
+    networks:
+      lan:
+        ipv4_address: 10.22.22.16
+      sctp-test-1:
+        ipv4_address: 10.10.100.20
+      sctp-test-2:
+        ipv4_address: 10.10.200.20
+    volumes:
+      - /root/go:/root/go
+      - /host/projects:/root/projects
+
+networks:
+  lan:
+    driver: ovs
+    driver_opts:
+      attach-bridge: ovs-bridge
+    ipam:
+      driver: ovs
+      config:
+        - subnet: 10.22.22.0/24
+          gateway: 10.22.22.1
+  sctp-test-1:
+    driver: ovs
+    driver_opts:
+      create-bridge: sctp-test-1
+    ipam:
+      driver: ovs
+      config:
+        - subnet: 10.10.100.0/24
+  sctp-test-2:
+    driver: ovs
+    driver_opts:
+      create-bridge: sctp-test-2
+    ipam:
+      driver: ovs
+      config:
+        - subnet: 10.10.200.0/24
